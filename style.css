@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: darkolivegreen;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.words{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.words p{
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.words span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(32, 32, 32);
+    gap: 20px;
+    padding: 10px;
+}
+
+.words span h2{
+    color: palevioletred;
+}
+
+.words span ul{
+    color: white;
+    padding: 0 20px;
+}
+
+.words div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(32, 32, 32);
+    gap: 20px;
+    padding: 10px;
+}
+
+.words div h2{
+    color: palevioletred;
+}
+
+.words div ol{
+    color: white;
+    padding: 0 20px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
